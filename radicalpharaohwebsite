@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<div class=container-fluid>
+<stlye>
+h1 {
+    font-family: Compacta; 
+    }
+.pink-text {
+  color: #FFC0CB
+  }
+
+
+
+
+
+
+
+
+
+</style>
+
+<h1 class="pink-text ">JoJo's Bizarre Adventure</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
