@@ -5,7 +5,7 @@
 * {box-sizing:border-box}
 body {font-family: Times New Roman;}
 body {
- background: <img src="http://pre04.deviantart.net/03e0/th/pre/i/2012/089/7/3/gray_website_background_by_maruron-d4ugudv.jpg">
+  background-image: url("http://pre04.deviantart.net/03e0/th/pre/i/2012/089/7/3/gray_website_background_by_maruron-d4ugudv.jpg");
  }
 ul.tab {
     list-style-type: none;
@@ -124,7 +124,7 @@ h3 {
   .text {font-size: 200px}
 }
 </style>
-<body>
+<body style="color:blue;">
 <h2>Welcome to the Analytical World of <img src="http://download-logos.com/uploads/posts/2016-10/1477467390_pokemon-logo.png"/></h2>
 <p>Pokemon you should consider!:</p>
 
@@ -148,6 +148,24 @@ h3 {
   <div class="text">Garchomp - One of the strongest Dragon-type Pokemon! His speed and power is unmatched!</div>
 </div>
 
+ <div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://img.pokemondb.net/artwork/guzzlord.jpg" style="width:100%">
+  <div class="text">Guzzlord - An Ultra Beast! This Pokemon is amazing! With each pokemon it defeats, it gets stronger!</div>
+</div>
+ 
+ <div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="http://vignette2.wikia.nocookie.net/nationalpokedex/images/9/99/Garchomp.jpg/revision/latest?cb=20110401033004" style="width:100%">
+  <div class="text">Garchomp - One of the strongest Dragon-type Pokemon! His speed and power is unmatched!</div>
+</div>
+ 
+ <div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="http://vignette2.wikia.nocookie.net/nationalpokedex/images/9/99/Garchomp.jpg/revision/latest?cb=20110401033004" style="width:100%">
+  <div class="text">Garchomp - One of the strongest Dragon-type Pokemon! His speed and power is unmatched!</div>
+</div>
+ 
 </div>
 <br>
 
@@ -175,11 +193,11 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 10000);
+    setTimeout(showSlides, 5000);
 }
 </script>
 
-<h3>Click the tabs below to find out how to make your Pokemon stronger!</h3>
+<h3>Click the tabs below to find out the three ways on how to make your Pokemon stronger!</h3>
 
 <ul class="tab">
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Nature')">Nature</a></li>
@@ -189,17 +207,17 @@ function showSlides() {
 
 <div id="Nature" class="tabcontent">
   <h3>Nature</h3>
-  <p>Nature - The Personality of the Pokemon.</p>
+  <p>Nature - </p>
 </div>
 
 <div id="IV" class="tabcontent">
   <h3>IV</h3>
-  <p>IV - Individual Values.</p> 
+  <p>Individual Values - </p> 
 </div>
 
 <div id="EV" class="tabcontent">
   <h3>IV</h3>
-  <p>EV - Effort Values .</p>
+  <p>Effort Values - </p>
 </div>
 
 <script>
