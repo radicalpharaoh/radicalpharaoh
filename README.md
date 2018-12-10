@@ -1,1 +1,1 @@
-# 1
+Hello! All you guys need to do to access my website is go to radicalpharaoh.github.io and browse the information I listed. To access the pages of information I created, click on the tabs to see them. I listed links to two websites that further increase my project's goal.
