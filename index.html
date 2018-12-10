@@ -1,365 +1,117 @@
-<html>
-<div class=container-fluid>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>   
-* {box-sizing:border-box}
-body {font-family: Times New Roman;  
-  }      
-body {  width: 100%;    
-  height: 400px;       
-  background-image: url(http://www.planwallpaper.com/static/images/Orange-background.png);
-   background-repeat: no-repeat, no-repeat, no-repeat;
-  }
-ul.tab { 
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-  text {
-    color: Black;
-  }
+<!DOCTYPE html>
+<html lang="en">
 
-ul.tab li {float: left;}
+<head>
+	<title>website</title>
+	<meta charset="utf-8">
+	<link rel="Stylesheet" href="css/style.css">
+	</head>
 
-ul.tab li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; 
-    transition: 0.3s;
-    font-size: 17px;
-}
-ul.tab li a:hover {
-    background-color: #ddd; 
-} 
-ul.tab li a:focus, .active {
-    background-color: #ccc;
-}
-.tabcontent {
-    display: none;
-    padding: 6px 12px; 
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s;
+	<body> 
+			<nav>
+		<ul class="menu">
+			<li><a href="index.html">Homepage</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="resources.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<style>
+.footer {
+   position: static;
+   left: 0;
+   bottom: -50;
+   width: 100%;
+   height: 100%;
+   background-color: purple;
+   color: black;
+   text-align: center;
 }
 
-@-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
- 
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-  table, th, td {
-    border: 1px solid black;
-}
-h1 { 
- font-family: Times New Roman;
- font-size: 20px;
-  color: Black
-      margin-left: 380px;
-  };
- } 
-h2 { 
- font-family: Times New Roman;
- font-size: 2000px;
-  color: Black;
- }
-h3 {
- font-family: Times New Roman;
- font-size: 200px
-   color: Black;
- }	
-  p { 
-    font-family: Times New Roman;
- font-size: 17px;
-  color: Black
-  }
-    p1 { 
-    font-family: Times New Roman;
- font-size: 20px;
-  color: Black
-    margin-left: 380px;
-  }
-
-.mySlides {display:none}
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 80px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 80px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
- 
-.dot {
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-} 
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
- 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-@media only screen and (max-width: 300px) {
-  .text {font-size: 200px}
+</style>
+<style>
+div.static {
+  position: static;
 }
 </style>
-<body style="color:blue;">
-  <h2>Welcome to the Analytical World of </h2>
-  <img src="http://download-logos.com/uploads/posts/2016-10/1477467390_pokemon-logo.png"/>
-  <hr>
-  <h1>Many of you know what Pokemon is but if you don't, let me quickly elaborate! It is huge brand that covers movies, TV shows, toys, trading card games and even video games. I am here to go over the aspect of their video games.</h1> 
-  <h1>Recently, the new Pokemon game, "Pokemon Sun and Moon" came out and with that, a plethora of new Pokemon and adventures to partake in.</h1> 
-  <h1>This website is here to help you beat the endgame content that Pokemon Sun and Moon has to offer and how to make your Pokemon the strongest they can be.</h1> 
-  <h1>To help better your understanding on how to make your Pokemon strong, please choose from the list of Pokemon below.
-<p>We have Blissey, Gengar and Garchomp for our examples today!</p>
-<hr>
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  
-  <img src="http://25.media.tumblr.com/tumblr_lpv41tgrCZ1qcm0wfo1_500.gif" style="width:100%">
-  <div class="text">The healer!</div>
-</div>
-
-<div class="mySlides fade">
-  <img src="https://67.media.tumblr.com/tumblr_m6krfbRzvZ1qd87hlo1_500.gif" style="width:100%">
-  <div class="text">The special damage dealer!</div>
-</div>
-
-<div class="mySlides fade">
-  <img src="http://i.imgur.com/Ch4Kr.gif" style="width:100%">
-  <div class="text">The fast bullet!</div>
-  </div>
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-<script>
-var slideIndex = 0; 
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 8000);
+	<style>
+body {
+  background-image: url("https://i.pinimg.com/originals/02/56/0f/02560f0a35918a90013c74d2ee681b81.jpg");
 }
-</script>
-<hr>
-<h3>Click the tabs below to find out the three ways on how to make the Pokemon you choose stronger!</h3>
-
-<ul class="tab">
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Nature')">Nature</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'IV')">IV</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'EV')">EV</a></li>
-</ul>
-
-<div id="Nature" class="tabcontent">
-  <h3>A Pokemon's Personality!</h3>
-  <p>A way to influence how strong a Pokemon grows!</p>
-  <table>
-  <tr>
-     <th>Nature</th>
-    <td>Adamant</td>
-    <td>Brave</td>
-    <td>Lobely</td>
-    <td>Naughty</td>
-    <td>Bold</td>
-    <td>Impish</td>
-    <td>Lax</td>
-    <td>Relaxed</td>
-    <td>Mild</td>
-    <td>Modest</td>
-    <td>Quiet</td>
-    <td>Rash</td>
-    <td>Calm</td>
-    <td>Gentle</td>
-    <td>Sassy</td>
-    <td>Hasty</td>
-    <td>Jolly</td>
-    <td>Hasty</td>
-    <td>Naive</td>
-    <td>Timid</td>
-    <td>Bashful</td>
-    <td>Docile</td>
-    <td>Hardy</td>
-    <td>Quirky</td>
-    <td>Serious</td>
-  </tr>
-    <th>Increased Stat</th>
-  <td>Attack</td>
-    <td>Attack</td>
-    <td>Attack</td>
-    <td>Attack/td>
-    <td>Defense</td>
-    <td>Defense</td>
-    <td>Defense</td>
-    <td>Defense</td>
-    <td>Special Attack</td>
-    <td>Special Attack</td>
-    <td>Special Attack</td>
-    <td>Special Attack</td>
-    <td>Special Defense</td>
-    <td>Special Defense</td>
-    <td>Special Defense</td>
-    <td>Special Defense</td>
-    <td>Speed</td>
-    <td>Speed</td>
-    <td>Speed</td>
-    <td>Speed</td>
-    <td>None</td>
-    <td>None</td>
-    <td>None</td>
-    <td>None</td>
-    <td>None</td>
-   </tr>
-    <th>Decreased Stat</th>
-    <td>Special Attack</td>
-    <td>Speed</td>
-    <td>Defense</td>
-    <td>Special Defense</td>
-    <td>Attack</td>
-    <td>Special Attack</td>
-    <td>Special Defense</td>
-    <td>Speed</td>
-    <td>Defense</td>
-    <td>Attack</td>
-    <td>Speed</td>
-    <td>Special Defense</td>
-    <td>Attack</td>
-    <td>Special Attack</td>
-    <td>Defense</td>
-    <td>Speed</td>
-    <td>Defense</td>
-    <td>Special Attack</td>
-    <td>Special Defense</td>
-    <td>Attack</td>
-    <td>None</td>
-    <td>None</td>
-    <td>None</td>
-    <td>None</td>
-    <td>None</td>
-    </tr>
-</table>
-  <hr>
-  <p> With the table above, you can see which nature gives what bonuses to the Pokemon. Each nature caters to a different playstyle for a Pokemon. Either it be great special defense against ice and hyper beams or just fast speed to ensure you always get to hit your opponent first. Natures influence this game a lot! </p> 
-  <hr>
-<p> For Blissey, anything that increases her Defense or Special Defense works wonders. It allows her huge Health Points to expand multiplicatively.
-<p>For Gengar, the Modest nature allows him to deal his Special Attack-focused moves more explosively to his enemy. </p>
-<p>For Garchomp, it is a mixed bag. You can either take Adamant to increase his already staggering damage or take Jolly to increase his overall speed. </p> 
-    </div>
-
-<div id="IV" class="tabcontent">
-  <h3>Individual Values!</h3>
-  <p>These values are the threshold of what a Pokemon is capable to do.</p> 
-  <img src="http://i3.kym-cdn.com/photos/images/newsfeed/001/069/319/649.gif">
-  <hr>
-  <p>For a threshold to be achieved, a player must breed the Pokemon correctly and through trial and error, obtain a Pokemon with correct IV values</p> 
-  <p>Below are two examples of the effects of obtaining IVs on your Pokemon</p>
-  <hr>
-  <img src="http://i.imgur.com/Xiu0Tcp.jpg">
-  <p> This Pokemon has 6 IVs. You can tell by the way the stats are portrayed as well as the reduction in a single stat point due to its nature!</p>
-  <img src="https://i.ytimg.com/vi/tl3BtH7fhXk/maxresdefault.jpg">
-  <p> This Pokemon has 5 IVs. The way you can tell is by the stat being 4, indicating 6 was not obtained, only 5 and the decrease from the nature.</p>
-  </div>
-
-<div id="EV" class="tabcontent">
-  <h3>Effort Values!</h3>
-  <p>These values are the amount of values a Pokemon Trainer can specifically dicate for the Pokemon to cater towards through in-game tedious behavior.</p>
-<IMG src="https://snapthirty.files.wordpress.com/2016/02/ev-iv-training.gif">
-  <p>It's basically working out! A Trainer designates a plan on how to train a Pokemon. But luckily for you guys, I already have the plan to help you all out. </p>
-  <p>To EV train your pokemon, you must find a pokemon that will reward it Effort Values for defeating it. If you click on this link, <a href="http://www.idigitaltimes.com/pokemon-sun-and-moon-ev-training-guide-ally-chaining-and-hyper-training-explained-569264">you can find out where to obtain the right EVs for your Pokemon!</a></p> 
-  
-  </div>
-
-<script>
-function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
+</style>
+<style>
+    .left{
+text-align:left;
+float:left;
 }
-</script>
+.right{
+float:right;
+text-align:right;
+}
+.centered{
+text-align:center;
+}
+
+</style>
+	<style>
+	    .img-circle {
+    border-radius: 50%;
+}
+
+	</style>
+	<style type="text/css">
+       a:link {color: pinkk;}      
+       a:visited {color: pink;}   
+       a:hover {color: 	#FF69B4;}     
+       a:active {color: pink;}    
+    </style>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Merriweather|Text+Me+One');
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Text Me One', sans-serif;
+*/
+
+.menu li {
+	display: inline;
+	padding: 0 100px;
+	text-align: right;
+	background-color: #FFC0CB
+;}
+
+.menu li a {
+		font-family: 'Merriweather', serif;
+		text-decoration: none;
+		color: #DB7093;
+		font-weight: bold;
+		font-size: 18px
+		text-transform: uppercase;
+		transition: all 0.2s ease-in-out;
+	}
+.menu li a:hover {
+	color: #FFFFFF;
+</style>
 
 
-</body>
- <hr>
- 
-<p1> If you follow the tabs on how to make your Pokemon stronger, you'll be swimming in money in no time! Just ask our satisfied customer James!
-<IMG SRC="https://67.media.tumblr.com/b206305f98fb6601fb5d6dc65a7ac803/tumblr_inline_oam6tx9e1d1u8uq6g_500.gif"> 
+	
+	<img src="https://i.imgur.com/0xiBA50.png"/>
+<img class ="img-circle" src="https://cdn.discordapp.com/attachments/307646951468302338/500508192057589779/new_insta_photo.png" style="width:30%"/>
+<img class ="img-circle" src="https://cdn.discordapp.com/attachments/307646951468302338/496751188860207114/WHIMZY2.png" style="width:30%"/>
+<img class ="img-circle" src="https://i.imgur.com/cAENunZ.png" style="width:30%"/>
+<body style="color:purple;">
+  <h2>These are my works. Click the links above for more information about me and my art. </h2>
   
- <h2 id="citation-input" class="white-text">All photos belong to the <a href="http://bulbapedia.bulbagarden.net/wiki/Main_Page">Bulbapedia,
-the community driven Pokémon encyclopedia!</a></h2>   
-
-</html> 
-
-          
   
+  <footer>
+  <div class="static">
+  <div class="footer">
+ <div id="footer">
+    <p class="left"><font color="pink">About<br />Portfolio<br />Contact</font></p>
+    <p class="right"><font color="pink">Privacy Policy<br />Terms of service <br />Copyright @2019</font></p>
+    <p class="center"><font color="pink">Facebook<br /><a href="https://www.instagram.com/jishru/?hl=en">Instagram </a><br />Twitter</font></p>
+</div>
+</div>
+</div>
+</footer>
+
+
